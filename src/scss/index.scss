@@ -1,0 +1,60 @@
+/*Global styles*/
+@font-face {
+  font-family: "Exo 2.0 Thin", arial;
+  src: url("../../public/assets/fonts/Exo2.0-Thin.woff2"),
+  url("../../public/assets/fonts/Exo2.0-Thin.woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trebuchet MS", sans-serif;
+  src: url("../../public/assets/fonts/TrebuchetMS.woff");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trebuchet MS", sans-serif;
+  src: url("../../public/assets/fonts/TrebuchetMS-Bold.woff");
+  font-weight: 800;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  overflow-x: hidden;
+  position: relative;
+  min-width: 320px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
